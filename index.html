@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+
+  <title>Convert weight App </title>
+
+
+</head>
+
+<body>
+  <div class="container ">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-4 text-center mb-2"> Weight Convert</h1>
+        <form>
+          <div class="form-group">
+            <input id="ibsinput" type="number" class="form-control form-control-lg" placeholder="enter Pounds......">
+          </div>
+        </form>
+        <div id="output">
+
+          <div class="card bg-primary mb-2">
+            <div class="card-block py-2">
+              <h4>Grams:</h4>
+              <div id="gramsinput"></div>
+            </div>
+          </div>
+          <div class="card bg-info mb-2">
+            <div class="card-block py-2">
+              <h4>KiloGrams:</h4>
+              <div id="kilogramsinput"></div>
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <div class="card-block py-2">
+              <h4>ounces:</h4>
+              <div id="ouncesinput"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="/scripts/main.js"></script>
+</body>
+
+</html>
